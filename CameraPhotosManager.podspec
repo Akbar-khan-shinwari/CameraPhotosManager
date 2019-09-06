@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CameraPhotosManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CameraPhotosManager.'
+  s.summary          = 'CameraPhotosManager is ImagePicker.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'CameraPhotosManager is an awesome camera solution for your iOS app. It lets your users select photo from the photos library and take pictures.'
                        DESC
 
   s.homepage         = 'https://github.com/akbar-khan-shinwari/CameraPhotosManager'
@@ -26,11 +26,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'akbar-khan-shinwari' => 'akshinwari1@gmail.com' }
   s.source           = { :git => 'https://github.com/akbar-khan-shinwari/CameraPhotosManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.youtube.com/channel/UCVRWv59s1wR-W3JOV-Xd09Q'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.2'
 
-  s.source_files = 'CameraPhotosManager/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "12.2"
+  }
   
   # s.resource_bundles = {
   #   'CameraPhotosManager' => ['CameraPhotosManager/Assets/*.png']
