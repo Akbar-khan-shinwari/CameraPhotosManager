@@ -1,0 +1,16 @@
+PODS:
+  - CameraPhotosManager (0.1.0)
+
+DEPENDENCIES:
+  - CameraPhotosManager (from `../`)
+
+EXTERNAL SOURCES:
+  CameraPhotosManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CameraPhotosManager: d6484e2341c757d9328c3d2d894108817da07ff6
+
+PODFILE CHECKSUM: a7472b1dc8df193a701f62be6751558cf62e0504
+
+COCOAPODS: 1.7.2

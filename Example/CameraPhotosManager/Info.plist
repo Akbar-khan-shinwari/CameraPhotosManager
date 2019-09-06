@@ -35,5 +35,9 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>CameraPhotosManager will use your Camera to let you capture image.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>CameraPhotosManager will use your Photo Library to let you choose image.</string>
 </dict>
 </plist>
